@@ -1,1 +1,7 @@
 ---
+- hosts: panel
+- vars:
+    remote_user: roman
+- tasks:
+    - name: shell
+        shell: ip a
