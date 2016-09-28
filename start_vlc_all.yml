@@ -4,4 +4,4 @@
   remote_user: roman
 - tasks:
   - name: test
-    ping:
+    shell: '/usr/sbin/ip a'
