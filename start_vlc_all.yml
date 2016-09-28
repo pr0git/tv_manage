@@ -1,7 +1,5 @@
 ---
 - hosts: panel
-- vars:
-  remote_user: roman
 - tasks:
   - name: test
     shell: '/usr/sbin/ip a'
