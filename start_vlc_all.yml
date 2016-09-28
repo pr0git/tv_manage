@@ -3,5 +3,5 @@
 - vars:
   remote_user: roman
 - tasks:
-  - name: shell
-    shell: /usr/bin/ip a
+  - name: test
+    ping:
