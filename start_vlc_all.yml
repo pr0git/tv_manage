@@ -4,4 +4,4 @@
     remote_user: roman
 - tasks:
     - name: shell
-        shell: ip a
+        shell: /usr/bin/ip a
